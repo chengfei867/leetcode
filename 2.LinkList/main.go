@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	//1、移除链表元素
 	/**
@@ -20,20 +18,14 @@ func main() {
 	//	fmt.Println(newHead.Val)
 	//	newHead = newHead.Next
 	//}
-	myLinkedList := Constructor()
-	head := &myLinkedList
-	head.AddAtHead(1)
-	head.AddAtTail(3)
-	head.AddAtIndex(1, 2)
-	//head.DeleteAtIndex(0)
-	for head != nil {
-		fmt.Println(head.val)
-		head = head.next
-	}
-	head.nextNode()
-	for head != nil {
-		fmt.Println(head.val)
-		head = head.next
-	}
-	//fmt.Println(myLinkedList.Get(1))
+	//myLinkedList := Constructor()
+	//head := &myLinkedList
+	//head.AddAtHead(1)
+	//head.AddAtTail(3)
+	//head.AddAtIndex(1, 2)
+	//for head != nil {
+	//	fmt.Println(head.val)
+	//	head = head.next
+	//}
+
 }
